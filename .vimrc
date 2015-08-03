@@ -87,3 +87,14 @@ let g:SrcExpl_nextDefKey = "<F4>"
 ""python powerline_setup()
 ""python del powerline_setup
 
+" Cscope related.
+set csprg=/usr/bin/cscope 
+set csto=0 
+set cst 
+set nocsverb 
+if filereadable("./cscope.out")       
+    cs add cscope.out                 
+else                                  
+    cs add /usr/src/linux/cscope.out  
+endif                                  
+set csverb
