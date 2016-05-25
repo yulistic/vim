@@ -6,3 +6,4 @@
 3-2. FYI, following command will make you utilize mkcscope.sh file more conveniently.
 	$ sudo cp mkcscope.sh /usr/bin
 
+"hihi"
